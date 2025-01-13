@@ -6,4 +6,4 @@ Generally this would be used in conjunction with an arbitrary file upload or arb
 
 ### Additional notes:
 - Some of the attack vectors (primarily "destructive" attacks such as different forms of DoS) have been commented out so that sny pentesters or bug bounty hunters using this file don't crash the webserver. If yoy want to test for these attacks, then simply uncomment them.
-- Similarly, some of the methods of spawning webshells have also been commented out, while the method for spawning a PHP shell remains uncommented. Depending on your target environment, turn the PHP shell lines into a comment and uncomment the lines to spawn a shell for the relevant server-side scripting language that is in use on your target.
+- Similarly, the methods of spawning webshells have also been commented out. Depending on your target environment, uncomment the lines to spawn a shell for the relevant server-side scripting language that is in use on your target.
